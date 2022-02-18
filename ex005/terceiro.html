@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro script</title>
+    <style>
+        body{
+            background-color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>MEU PRIMEIRO SCRIPT JAVA</h1>
+    <p>Olá mundo.</p>
+
+    <script>
+        /* var n1 = Number(window.prompt('Digite um número: ')) 
+        var n2 = Number(window.prompt('Digite um outro número: '))    - ESTA FORMA É A MAIS NOVA USANDO APENAS Number pra converter.
+        var soma = n1 + n2 
+        window.alert('A soma dos números é  ' + soma + '!') */
+
+        /* var n1 = Number.parseFloat(window.prompt('Digite um número: ')) 
+        var n2 = Number.parseFloat(window.prompt('Digite um outro número: '))  // - Essa é outra forma de fazer... 
+        var soma = n1 + n2 
+        window.alert('A soma dos números é  ' + soma + '!') */
+
+        var n1 = parseFloat(window.prompt('Digite um número: ')) 
+        var n2 = parseFloat(window.prompt('Digite um outro número: '))  // - Essa é outra forma de fazer, sem usar o Number.... 
+        var soma = n1 + n2 
+        // window.alert('A soma dos números é  ' + soma + '!')
+
+        // lembrando que int e float sao diferentes.
+
+        // outra forma de enviar pra tela é o template string... usando o `${}`
+        // nos casos acima ficará o alert dessa forma:
+
+        window.alert (`a soma de ${n1} e ${n2} é igual a ${soma}`)  // mais simples e bonito... 
+
+
+
+
+    </script>
+</body>
+</html>
