@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numero01 = Number(prompt("Informe o primeiro número", "0"), 10);
+        var numero02 = Number(prompt("Informe o segundo número", "0"), 10);
+        var numero03 = Number(prompt("Informe o terceiro número", "0"), 10);
+        if ((numero01 > numero02) && (numero01 > numero03)) mensagem = "O primeiro número informado é maior!"
+        else
+        if ((numero02 > numero01) && (numero02 > numero03)) mensagem = "O segundo número informado é maior!"
+        else
+        if ((numero03 > numero01) && (numero03 > numero02)) mensagem = "O terceiro número informado é maior!"
+        else
+        mensagem = "Os números são iguais ou nada foi informado";
+        alert(mensagem);
+      </script>
+</head>
+<body>
+    Exercício saber números maiores.
+</body>
+</html>

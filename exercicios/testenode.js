@@ -1,0 +1,1 @@
+console.log ('Ola, meu NOME é "anderson", tenho ' + 41 + ' anos de idade.')
